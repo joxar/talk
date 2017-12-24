@@ -17,6 +17,7 @@ text = text.replace("\n", "")
 def exec(cmd):
     r = subprocess.check_output(cmd, shell=True)
     return r.decode("utf-8").strip()
+
 # read by one statement
 lines = text.split("。")
 for s in lines:

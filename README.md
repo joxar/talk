@@ -9,4 +9,6 @@ cd aquestalkpi/
 
 ## execute 
 ./AquesTalkPi "こんにちは" | aplay
+<br>
+python3 talk-weather.py
 
